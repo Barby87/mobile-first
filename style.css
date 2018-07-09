@@ -1,9 +1,7 @@
+
+/* Estilo Navbar*/
 #galería {
   background-color: rgb(228, 226, 226);
-}
-
-#drop {
-  border: 0;
 }
 
 #navbarDropdown {
@@ -11,46 +9,81 @@
   color: black;
 }
 
-/* alinear navbar en tamaño desktop
-@media(min-width: 768px) {
-.dropdown {
-  display: inline-block;
+#dropMenu {
+background-color: #F8F9FA;
+border: 0;
 }
 
+#btn-nav {
+  border: 1px solid  rgb(207, 203, 203);
+  color: black;
 }
-*/
 
+
+/* Estilo imágenes*/
 #title1 {
   text-align: center;
   margin-top: 70px;
   margin-bottom: 15px;
 }
 
-.img-thumbnail {
+.images {
   display: block;
+  text-align: left;
 }
 
-#images {
-  margin-bottom: 50px; 
+#photos {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+
+@media(min-width: 768px){ /* esta medida se encuentra en bootstrap-> overview-> responsive breakpoints */
+  .images{
+      display: inline-block; /*El menú va a tomar este ancho con pantallas de 768px hacia arriba*/
+      width: 30vw;
+      height: 20vh;
+      text-align: left;
+  }
+
+  .form-group {
+    width: 60vw;
+  }
+}
+
+/* Estilo formulario de Contacto*/
+
+#title2 {
+  text-align: center;
+  padding-bottom: 70px;
 }
 
 #form2 {
   background-color: rgb(243, 138, 124);
   color: white; 
-  padding: 60px;
-  
+  padding: 60px; 
 }
 
-#title2 {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.btn {
+/*Estilo botón formulario*/
+#btn-form {
   background-color: white;
   color: black;
+  border: none;
 }
 
+/*Estilo íconos*/
 #icons {
   text-align: center;
 }
+
+.fab {
+  width: 20px;
+}
+
+footer {
+  padding: 10px;
+}
+
+
+
