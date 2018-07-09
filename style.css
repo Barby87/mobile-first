@@ -1,0 +1,56 @@
+#galería {
+  background-color: rgb(228, 226, 226);
+}
+
+#drop {
+  border: 0;
+}
+
+#navbarDropdown {
+  background-color: rgb(228, 226, 226);
+  color: black;
+}
+
+/* alinear navbar en tamaño desktop
+@media(min-width: 768px) {
+.dropdown {
+  display: inline-block;
+}
+
+}
+*/
+
+#title1 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.img-thumbnail {
+  display: block;
+}
+
+#images {
+  margin-bottom: 50px; 
+}
+
+#form2 {
+  background-color: rgb(243, 138, 124);
+  color: white; 
+  padding: 60px;
+  
+}
+
+#title2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+}
+
+#icons {
+  text-align: center;
+}
